@@ -3422,7 +3422,7 @@ break
 						if (isMedia && !mek.message.videoMessage || isQuotedImage) {
 							const encmedia = isQuotedImage ? JSON.parse(JSON.stringify(mek).replace('quotedM', 'm')).message.extendedTextMessage.contextInfo : mek
 							const media = await alpha.downloadAndSaveMediaMessage(encmedia, `./sticker/${sender}`)
-							exif.create('Created By', 'ZeeoneOfc', `stickwm_${sender}`)
+							exif.create('Created By', 'Dityaastawa', `stickwm_${sender}`)
 							//ran = getRandom('.webp')
                         await ffmpeg(`./${media}`)
                             .input(media)
@@ -3512,7 +3512,7 @@ break
 					fs.unlinkSync(mediaa)
 					if (err) return reply('Yah gagal, coba ulangi ^_^')
 					buffer = fs.readFileSync(ran)
-					fakethumb(buffer,'Webp To Image')
+					fakethumb(buffer,'Nih kak')
 					fs.unlinkSync(ran)
 					})
 					await limitAdd(sender, limit)}
@@ -4381,7 +4381,7 @@ case 'tahta':
                    F = q
                    reply(lang.wait())
                    tahta = await getBuffer(`${ApiZeks}/api/hartatahta?text=${F}&apikey=${zeksApikey}`)
-                   tahtah = `${lang.success()}\n\nPlease Subscribe https://youtu.be/w4iQ4rwA0mo`
+                   tahtah = `${lang.success()}\n\nJangan lupa donasi`
                    sendImageMaker(tahta, tahtah, sender)
                   await  limitAdd(sender, limit)
                   break
@@ -4390,7 +4390,7 @@ case 'tahta':
                    F = q
                    reply(lang.wait())
                    ytgold = await getBuffer(`${ApiZeks}/api/gplaybutton?text=${F}&apikey=${zeksApikey}`)
-                   ytgoldp = `${lang.success()}\n\nPlease Subscribe https://youtu.be/w4iQ4rwA0mo`
+                   ytgoldp = `${lang.success()}\n\nJangan lupa donasi`
                    sendImageMaker(ytgold, ytgoldp, sender)
                    await  limitAdd(sender, limit)
                    break  
@@ -4399,7 +4399,7 @@ case 'tahta':
                    F = q
                    reply(lang.wait())
                    ytsilver = await getBuffer(`${ApiZeks}/api/splaybutton?text=${F}&apikey=${zeksApikey}`)
-                   ytsilverp = `${lang.success()}\n\nPlease Subscribe https://youtu.be/w4iQ4rwA0mo`
+                   ytsilverp = `${lang.success()}\n\nJangan lupa donasi`
                    sendImageMaker(ytsilver, ytsilverp, sender)
                    await  limitAdd(sender, limit)
                    break              
