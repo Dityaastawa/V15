@@ -1,15 +1,11 @@
 // jangan di ubah jika tidak punya group bot, takutnya eror
 const gcbotwa = () =>{
-	return`Join Aja Semua Fitur Bot Bisa Digunakan !
+	return`Join Aja Kak Bantu Ramaikan !
 
-1. *Alphabot Support*
-_https://chat.whatsapp.com/EU890BcXjyBDkNaUT5WmYV_
-2. *Alphabot Support 2*
-_https://chat.whatsapp.com/E8NExJwIbhBJYzssfqJNsE_
-3. *Alphabot Support 3*
-_https://chat.whatsapp.com/KCSqHTky1apG7ApePsfiPy_
-4. *Alphabot Support 4* 
-_https://chat.whatsapp.com/KwmvHr7VMFj7r5ry9xmMsU_
+1. *DITYA BOTZ GROUP*
+ https://chat.whatsapp.com/LJHLvvu63DMG9MNBqua30M
+2. *DITYA BOTZ GROUP 2*
+ https://chat.whatsapp.com/EXYsgUhiKy38TguvDcLyko
 
 Jika ada link yang ke reset, silahkan hubungi
 owner untuk meminta link yang baru
